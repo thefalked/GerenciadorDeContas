@@ -16,7 +16,7 @@ const ContaSchema = new mongoose.Schema({
   },
   vezes: {
     type: Number,
-    required: true,
+    default: 1,
   },
   createdAt: {
     type: Date,
